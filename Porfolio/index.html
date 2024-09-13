@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afzal Rahuman Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background: linear-gradient(to right,  #2c1b49, #9a4d58, #5c2b1d); /* Updated gradient */
+            color: #fff;
+            line-height: 1.6;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.5);
+            text-align: center;
+            padding: 2rem 0;
+        }
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3rem;
+            letter-spacing: 2px;
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            border: 1px solid transparent;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            border-color: white;
+        }
+        section {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        .profile {
+            text-align: center;
+        }
+        .profile img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+        .profile h2 {
+            font-size: 2rem;
+        }
+        .about, .skills, .projects, .contact {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .skills ul, .projects ul {
+            list-style: none;
+        }
+        .skills ul li, .projects ul li {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.5rem 1rem;
+            margin: 0.5rem 0;
+            border-radius: 10px;
+        }
+        button {
+            padding: 0.8rem 2rem;
+            border-radius: 30px;
+            background: rgba(255, 255, 255, 0.3);
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: rgba(255, 255, 255, 0.6);
+        }
+        footer {
+            text-align: center;
+            margin: 3rem 0;
+            color: rgba(255, 255, 255, 0.7);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Afzal Rahuman</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="about">
+        <div class="profile" style="text-align: center;">
+            <!-- Placeholder for new profile image -->
+            <img src="profile_pic.jpeg" alt="Afzal Rahuman">
+            <h2>Data Engineer | Software Developer</h2>
+        </div>
+        <p>
+            I am a proactive IT graduate with a B.Tech in Information Technology, specializing in Python programming and web development. 
+            I recently completed a 4-month internship at Avasoft as a Trainee Engineer, where I gained hands-on experience in SQL, Python, Azure Synapse, 
+            Databricks, SSIS, PostgreSQL, and the ETL process. I actively contributed to project documentation, including FRD and design documents. 
+            I am eager to leverage my skills and recent experiences to make a meaningful impact in the IT industry.
+        </p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Selenium, Git, GitHub</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Figma, Django</li>
+            <li>ETL, Pandas, Apache Spark</li>
+            <li>PostgreSQL, Azure Synapse, SSIS</li>
+            <li>Power BI, FRD, Data Pipeline</li>
+            <li>SQL, API, Data Engineering</li>
+            <li>XML, Web Scraping, Documentation</li>
+            <li>ADLS, PySpark, Python, Jira</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>Unique Expense Manager (2021 - 2022)</strong> - Developed an expense tracker app using Java and Google Firebase.
+            </li>
+            <li>
+                <strong>Smart Exam Preparation Question Paper Generation Using AI (2022 - 2023)</strong> - Developed a system for automating question paper generation using AI techniques and Python.
+            </li>
+            <li>
+                <strong>Avasoft Internship Project</strong>
+                <p>
+                    During my internship at Avasoft, I was involved in various aspects of data engineering and analytics:
+                </p>
+                <ul>
+                    <li>Developed and managed data solutions, including building data pipelines and managing data warehousing using SQL, Azure Synapse, SSIS, Databricks, and PostgreSQL.</li>
+                    <li>Conducted data analysis and analytics using Python, Pandas, and Apache Spark.</li>
+                    <li>Led the development of a comprehensive project, applying a wide range of data engineering tools and methodologies.</li>
+                    <li>Gained hands-on experience with ETL processes, enhancing skills in data extraction, transformation, and loading.</li>
+                    <li>Created detailed Functional Requirement Documents (FRD) and design documents, ensuring alignment with business requirements.</li>
+                    <li>Worked with Azure Data Lake Storage (ADLS) to handle and process large volumes of data efficiently.</li>
+                </ul>
+            </li>
+        </ul>
+        
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: afzalrahuman07@gmail.com</p>
+        <p>Phone: +91 9884820853</p>
+        <p>Location: Chennai, India</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/afzal-rahuman/" style="color: white;">LinkedIn Profile</a></p>
+        <p>GitHub: <a href="https://github.com/afzalrahuman2121" style="color: white;">GitHub Profile</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Afzal Rahuman. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
